@@ -15,14 +15,18 @@ main {
   width: 200px;
   background-color: blue;
 }
-.contactos .contacto{
-  
+.contactos .contacto {
+  display: flex;
+  min-height: 70px;
+}
+.contactos .contacto img {
+  width: 100px;
 }
 /*2*/
 .principal {
   width: 100%;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 150px;z
 }
 .principal img {
   width: 300px;
