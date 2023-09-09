@@ -6,3 +6,24 @@
 h1 {
   font-weight: bold;
 }
+main {
+  display: flex;
+}
+/*1*/
+.contactos {
+  padding: 25px;
+  width: 200px;
+  background-color: blue;
+}
+.contactos .contacto{
+  
+}
+/*2*/
+.principal {
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+}
+.principal img {
+  width: 300px;
+}
