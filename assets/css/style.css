@@ -42,3 +42,16 @@ main {
 main {
   display: flex;
 }
+.principal {
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+  background-color: antiquewhite;
+  min-height: 100vh;
+}
+.principal img {
+  width: 250px;
+}
+.contactos{
+  padding: 100px;
+}
