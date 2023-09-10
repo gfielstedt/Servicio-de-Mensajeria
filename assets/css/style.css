@@ -38,6 +38,9 @@ main {
   margin: 0;
   padding: 0;
 }
+p{
+  font-size:small;
+}
 main {
   display: flex;
 }
@@ -64,7 +67,7 @@ main {
   min-height: 95px;
   border-top: solid 1px;
   border-color: lightgray;
-  padding: 15px;
+  padding: 5px;
 }
 .contactos .contacto img {
   width: 60px;
