@@ -1,33 +1,44 @@
-* {
+/** {
   margin: 0;
   padding: 0;
-  font-family: "Shadows Into Light", cursive;
-}
-h1 {
-  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 main {
   display: flex;
 }
-/*1*/
+/*1
 .contactos {
-  padding: 25px;
+  padding: 20px;
   width: 200px;
   background-color: blue;
 }
 .contactos .contacto {
   display: flex;
-  min-height: 70px;
+  min-height: 80px;
 }
 .contactos .contacto img {
-  width: 100px;
+  width: 50px;
+  border-radius: 60px;
 }
-/*2*/
+.contactos {
+  padding: 40px;
+}
+/*2
 .principal {
   width: 100%;
   text-align: center;
-  padding-top: 150px;z
+  padding-top: 150px;
+  background-color: plum;
 }
 .principal img {
-  width: 300px;
+  width: 400px;
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main {
+  display: flex;
 }
