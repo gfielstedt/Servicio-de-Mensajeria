@@ -42,20 +42,36 @@ main {
   display: flex;
 }
 .principal {
+  display: flex;
   width: 100%;
   text-align: center;
   padding-top: 150px;
   background-color: antiquewhite;
   min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .principal img {
   width: 250px;
 }
 .contactos {
   padding: 20px;
-  width: 200px;
+  width: 300px;
 }
 .contactos .contacto {
-  display: block;
+  display: flex;
   min-height: 95px;
+  border-top: solid 1px;
+  border-color: lightgray;
+  padding: 15px;
+}
+.contactos .contacto img {
+  width: 60px;
+  border-radius: 30px;
+}
+.contactos .contacto .info {
+  text-align: left;
+  padding: 10px;
+  width: 300px;
 }
