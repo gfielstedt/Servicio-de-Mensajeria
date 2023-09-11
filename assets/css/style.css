@@ -1,39 +1,3 @@
-/** {
-  margin: 0;
-  padding: 0;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-main {
-  display: flex;
-}
-/*1
-.contactos {
-  padding: 20px;
-  width: 200px;
-  background-color: blue;
-}
-.contactos .contacto {
-  display: flex;
-  min-height: 80px;
-}
-.contactos .contacto img {
-  width: 50px;
-  border-radius: 60px;
-}
-.contactos {
-  padding: 40px;
-}
-/*2
-.principal {
-  width: 100%;
-  text-align: center;
-  padding-top: 150px;
-  background-color: plum;
-}
-.principal img {
-  width: 400px;
-}
-*/
 * {
   margin: 0;
   padding: 0;
@@ -58,20 +22,17 @@ main {
 .principal img {
   width: 250px;
 }
-/*.contactos {
-  padding: 20px;
-  width: 300px;
-}*/
 .contactos {
   display: flex;
   flex-direction: column;
-  flex-basis: 30%;
+  flex-basis: 10%;
   border-right: solid 1px;
   border-color: lightgray;
+  max-height: 100vh;
 }
 .contactos .contacto {
   display: flex;
-  min-height: 95px;
+  min-height: 50px;
   border-top: solid 1px;
   border-color: lightgray;
   padding: 3px;
@@ -130,7 +91,7 @@ main {
   align-items: center;
 }
 .contactos nav .perfil .info {
-  padding: 10px;
+  padding: 5px;
 }
 .contactos nav .items {
   display: flex;
